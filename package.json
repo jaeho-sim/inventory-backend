@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -b",
     "dev": "ts-node-dev --exit-child src/index.ts",
     "start": "ts-node src/index.ts"
   },
